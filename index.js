@@ -16,7 +16,7 @@ $(function() {
       formatter(params) {
         const item = params[0];
         return `
-                排名
+                &nbsp;&nbsp;排名&nbsp;&nbsp;
                 <br />
                 ${item.name}:${item.data}
                `;
